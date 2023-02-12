@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-
+    //Capitulo 2 del libro de java a fondo
         Scanner leer = new Scanner(System.in);
 
         System.out.println("Introduzca la Fecha 1: dia, mes y año");
