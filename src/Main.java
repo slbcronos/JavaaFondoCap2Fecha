@@ -1,4 +1,5 @@
 import libro.cap02.fechas.Fecha;
+import libro.cap02.fechas.Fecha2;
 
 import java.util.Scanner;
 
@@ -19,6 +20,12 @@ public class Main {
          anio = leer.nextInt();
         Fecha f2 = new Fecha(dia,mes,anio);
 
+        //Asignar desde el constructor vacio
+        Fecha f3 = new Fecha();
+        f3.setDia(8);
+        f3.setMes(12);
+        f3.setAnio(1978);
+        System.out.println(f3.toString());
 
         //Fecha fija para comparar
         //Fecha f2 = new Fecha(2,3,1983);
@@ -32,5 +39,9 @@ public class Main {
 
         System.out.println("La fecha es: "+f1.toString());
         System.out.println("La fecha es: "+f2.toString());
+
+
+
+
     }
 }

@@ -6,7 +6,10 @@ public class Fecha {
     private int mes;
     private int anio;
 
-    //constructor
+    //constructor vacio
+    public Fecha(){
+
+    }
 
     public Fecha(int dia, int mes, int anio) {
         this.dia = dia;
